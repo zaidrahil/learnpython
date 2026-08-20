@@ -40,3 +40,5 @@ def cleandata(id):
     username,domain=clean.split('@')
     return {username:domain}
 print(cleandata('zaid@gamil.com'))
+
+#i did only few practice in funtioon i will do it later 
