@@ -93,12 +93,23 @@
 # p=persons("zaid","2007","99","armoor")
 # print(p.details())
 
-class person:
-    def __init__(self): #automitically called when object  is called 
-        print("this is dunder method type is constructor ")
+# class person:
+#     def __init__(self): #automitically called when object  is called 
+#         print("this is dunder method type is constructor ")
     
-    def year(self):
-            print("rowanova zoro")
-p2=person()
+#     def year(self):
+#             print("rowanova zoro")
+# p2=person()
 
-print(p2.year())
+# print(p2.year())
+
+class calc:
+    n1=int(input("enter a number "))
+    def squre(self):
+        print(f"a square is n1{n1*n1}")
+    def root(self):
+        print(f"a root is {self.n1/2}")
+cal=calc()
+cal.squre()
+cal.root()
+
