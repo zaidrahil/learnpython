@@ -42,3 +42,4 @@ def cleandata(id):
 print(cleandata('zaid@gamil.com'))
 
 #i did only few practice in funtioon i will do it later 
+#

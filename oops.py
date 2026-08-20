@@ -112,4 +112,4 @@ class calc:
 cal=calc()
 cal.squre()
 cal.root()
-
+#the thing is some of self and this quite similar to the the java 
