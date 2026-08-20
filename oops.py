@@ -53,9 +53,52 @@
 # usoppa.get_name()
 # usoppa.greet()
 
-class student:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-s1=student("zaid",20)
-print(s1.name,s1.age)
+
+
+#this topic are constructor similar to java as you can remeber 
+#basically ther are two word in this __init__ in order to define or declare a constructor and before giving
+ #a parameter we need to give 
+
+
+# class student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+# s1=student("zaid",20)
+# print(s1.name,s1.age)
+
+# class person:
+#     def __init__(self,name,dob,phno,place):
+#             self.name=name
+#             self.dob=dob
+#             self.phno=phno
+#             self.place=place
+
+# persona=person("zaid","26012007","9","armoor")
+# print(persona.name)
+# print(persona.dob)
+# print(persona.phno)
+# print(persona.place)
+
+
+# class persons:
+#     def __init__(self,name,dob,phno,place):
+#         self.name=name
+#         self.dob=dob
+#         self.phno=phno
+#         self.place=place
+#     def details(self):
+#         return f'{self.name} he is a great boy from {self.place} born on {self.dob} futher details contact{phno}'
+
+# p=persons("zaid","2007","99","armoor")
+# print(p.details())
+
+class person:
+    def __init__(self): #automitically called when object  is called 
+        print("this is dunder method type is constructor ")
+    
+    def year(self):
+            print("rowanova zoro")
+p2=person()
+
+print(p2.year())
