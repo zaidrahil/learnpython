@@ -1,115 +1,180 @@
-# class emp():
-#         salary=120000
-#         role="zaid"
-# zaid=emp
+# # class emp():
+# #         salary=120000
+# #         role="zaid"
+# # zaid=emp
 
-# print(zaid.salary,zaid.role)
+# # print(zaid.salary,zaid.role)
 
-# class student():
-#         name="zaid" #this is class attribute 
-#         salary=20000
+# # class student():
+# #         name="zaid" #this is class attribute 
+# #         salary=20000
 
-# harry =student()
-# #harry.name="rahil" this is object attribute  it override the 
-# #different method for accessing and changing content 
-# print(harry.name,harry.salary)
+# # harry =student()
+# # #harry.name="rahil" this is object attribute  it override the 
+# # #different method for accessing and changing content 
+# # print(harry.name,harry.salary)
 
-# class success():
-#         work="hard as much as i can"
-#         result="you get what you want"
-#         def will(self):
-#                 print(f"the thing is work {self.work} then only {self.result}")
-# fire=success()
-# fire.will()
+# # class success():
+# #         work="hard as much as i can"
+# #         result="you get what you want"
+# #         def will(self):
+# #                 print(f"the thing is work {self.work} then only {self.result}")
+# # fire=success()
+# # fire.will()
 
-# class cse1():
-#     def zaid(self):
-#         name="zaid rahil"
-#         rollno=25265
-#         print(name,rollno)
-# student=cse1()
-# student.zaid()
+# # class cse1():
+# #     def zaid(self):
+# #         name="zaid rahil"
+# #         rollno=25265
+# #         print(name,rollno)
+# # student=cse1()
+# # student.zaid()
 
 
+
+# # class student:
+# #         name=""
+# #         roll=0
+# #         def display(self):
+# #                 print(f"the man is {self.name} how every let down his confindence {self.roll}")
+# # zaid=student()
+# # zaid.name="zaid"
+# # zaid.roll=10
+# # zaid.display()
+
+
+# # class user:
+# #     def get_name(self):
+# #         return "ayani"
+# #     def greet(self):
+# #         name=self.get_name()
+# #         print(f"hello ji {name}")
+# # usoppa=user()
+# # usoppa.get_name()
+# # usoppa.greet()
+
+
+
+# #this topic are constructor similar to java as you can remeber 
+# #basically ther are two word in this __init__ in order to define or declare a constructor and before giving
+#  #a parameter we need to give 
+
+
+# # class student:
+# #     def __init__(self,name,age):
+# #         self.name=name
+# #         self.age=age
+# # s1=student("zaid",20)
+# # print(s1.name,s1.age)
+
+# # class person:
+# #     def __init__(self,name,dob,phno,place):
+# #             self.name=name
+# #             self.dob=dob
+# #             self.phno=phno
+# #             self.place=place
+
+# # persona=person("zaid","26012007","9","armoor")
+# # print(persona.name)
+# # print(persona.dob)
+# # print(persona.phno)
+# # print(persona.place)
+
+
+# # class persons:
+# #     def __init__(self,name,dob,phno,place):
+# #         self.name=name
+# #         self.dob=dob
+# #         self.phno=phno
+# #         self.place=place
+# #     def details(self):
+# #         return f'{self.name} he is a great boy from {self.place} born on {self.dob} futher details contact{phno}'
+
+# # p=persons("zaid","2007","99","armoor")
+# # print(p.details())
+
+# # class person:
+# #     def __init__(self): #automitically called when object  is called 
+# #         print("this is dunder method type is constructor ")
+    
+# #     def year(self):
+# #             print("rowanova zoro")
+# # p2=person()
+
+# # print(p2.year())
+
+# class calc:
+#     n1=int(input("enter a number "))
+#     def squre(self):
+#         print(f"a square is  n1 {self.n1*self.n1}")
+#     @staticmethod
+#     def root():
+#         print("asdf")
+# cal=calc()
+# cal.squre()
+# cal.root()
+# #the thing is some of self and this quite similar to the the java
+
+# # class oo():
+# #     a=1
+# # faa=oo
+# # print(faa.a)
+# # faa.a=0
+# # print(faa.a)
+
+# from random import randint
+
+# class train:
+
+#     def __init__(self,trainno):
+#             self.trainno=trainno
+
+#     def booking(self,fro,to):
+#          print(f"the train no {self.trainno} is from from {fro} to the {to}")
+#     def gettrain(self,fare,time):
+#         fare=randint(100,400)
+#         time=randint(0,24)
+#         timeq=randint(0,59)
+#         print(f"the train no is fare {fare} for the {self.trainno} on the time of {time}:{timeq}") 
+# t=train(1234)
+# t.booking("nizambad","hyd")
+# t.gettrain(100,"120:234")
 
 # class student:
-#         name=""
-#         roll=0
-#         def display(self):
-#                 print(f"the man is {self.name} how every let down his confindence {self.roll}")
-# zaid=student()
-# zaid.name="zaid"
-# zaid.roll=10
-# zaid.display()
-
-
-# class user:
-#     def get_name(self):
-#         return "ayani"
-#     def greet(self):
-#         name=self.get_name()
-#         print(f"hello ji {name}")
-# usoppa=user()
-# usoppa.get_name()
-# usoppa.greet()
-
-
-
-#this topic are constructor similar to java as you can remeber 
-#basically ther are two word in this __init__ in order to define or declare a constructor and before giving
- #a parameter we need to give 
-
-
-# class student:
-#     def __init__(self,name,age):
+#     def __init__(self,name,age,branch):
 #         self.name=name
 #         self.age=age
-# s1=student("zaid",20)
-# print(s1.name,s1.age)
+#         self.branch=branch
+#         print(f"{name}")
+# class course(student):
+     
+#     def courseis(self,cname,regulation):
+#         self.cname=cname
+#         self.regulation=regulation
+#         print(cname,regulation)
+# s1=student("zaid",20,"cse1")
+# c1=course("ayan",19,"ece")
+# c1.courseis("cse",22)
 
-# class person:
-#     def __init__(self,name,dob,phno,place):
-#             self.name=name
-#             self.dob=dob
-#             self.phno=phno
-#             self.place=place
+#inhertance multiple parents  
 
-# persona=person("zaid","26012007","9","armoor")
-# print(persona.name)
-# print(persona.dob)
-# print(persona.phno)
-# print(persona.place)
+class emp:
+    #class variable 
+    eno=123;
+    company="ITC";
+    def show(self):
+         print(f"the employee no {self.eno} in the company{self.company}")
 
+class coding:
+     language="python";
+     def skills(self):
+          print(f"the skill is {self.language}")
 
-# class persons:
-#     def __init__(self,name,dob,phno,place):
-#         self.name=name
-#         self.dob=dob
-#         self.phno=phno
-#         self.place=place
-#     def details(self):
-#         return f'{self.name} he is a great boy from {self.place} born on {self.dob} futher details contact{phno}'
+class details(emp,coding):
+        def detail(self):
+             print(f"over details are {self.eno}\n{self.company}\n{self.language}")
 
-# p=persons("zaid","2007","99","armoor")
-# print(p.details())
-
-# class person:
-#     def __init__(self): #automitically called when object  is called 
-#         print("this is dunder method type is constructor ")
-    
-#     def year(self):
-#             print("rowanova zoro")
-# p2=person()
-
-# print(p2.year())
-
-class calc:
-    n1=int(input("enter a number "))
-    def squre(self):
-        print(f"a square is n1{n1*n1}")
-    def root(self):
-        print(f"a root is {self.n1/2}")
-cal=calc()
-cal.squre()
-cal.root()
-#the thing is some of self and this quite similar to the the java 
+d1=details()
+c1=coding()
+c1.skills()
+d1.detail()
