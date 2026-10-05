@@ -76,3 +76,31 @@ class computer():
 c1=computer("zaid","16","500")          
 c1.display()
 print(computer.info()) 
+
+
+class student():
+     
+     college="gptnzb"
+     
+     def __init__(self,pinno,name,branch):
+          self.pinno=pinno
+          self.name=name
+          self.branch=branch
+     
+     def display(self):
+          print(self.pinno,self.name,self.branch)
+     
+     def feedetails(self,fee):
+          if self.branch=="cse":
+               fee=30000
+               return fee
+          elif self.branch=="ece":
+               fee=20000
+               return fee
+          elif self.branch=="eee":
+               fee=10000
+               return fee
+     
+s1=student(5,"zaid","cse")
+s1.display()
+s1.feedetails()
