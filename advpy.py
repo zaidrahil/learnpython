@@ -29,3 +29,19 @@
 # print(http_status(300))
 
 
+list1=["zaid","rahil","ayan"]
+
+for i,list in enumerate(list1):
+    print(f"it enumerate the list index is  {i} and {list}")
+
+#if not we need to mention all stuff for index and travering the list
+index=0
+for list2 in list1:
+        index+=1
+        print(f"index is and element is {index} and {list2}")
+#though enumeration as in single loop
+
+#List comprehension is way to create a new list from a exsiting list example 
+list22=[1,3,4,56]
+addlist1=[item*item for item in list22 ]
+print(addlist1)

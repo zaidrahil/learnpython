@@ -59,3 +59,20 @@ class vec1():
 vec11=vec1(2,4,6)
 vec22=vec1(3,5,7)
 
+
+class computer():
+     brand="zaid rahil"
+     
+     def __init__(self,cpu,ram,ssd):
+          self.cpu=cpu
+          self.ram=ram
+          self.ssd=ssd
+          
+     def display(self):
+          print(f"{self.ram}")
+     @classmethod
+     def info(nigga):
+          return nigga.brand
+c1=computer("zaid","16","500")          
+c1.display()
+print(computer.info()) 
