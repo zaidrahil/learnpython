@@ -25,3 +25,4 @@
 
 li=[(1,2,3),[4,5,6],{"name":"zaid","age":20},True,3.14]
 print(li)
+print[len(li)]
