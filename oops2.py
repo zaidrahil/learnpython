@@ -104,3 +104,4 @@ class student():
 s1=student(5,"zaid","cse")
 s1.display()
 s1.feedetails()
+print("practice it properly ")
