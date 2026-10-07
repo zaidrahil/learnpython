@@ -177,4 +177,5 @@ class details(emp,coding):
 d1=details()
 c1=coding()
 c1.skills()
+print("zaod")
 d1.detail()
