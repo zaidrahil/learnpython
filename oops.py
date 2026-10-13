@@ -191,3 +191,4 @@ class opus():
           print(f"name of the person:{self.name} \n age:{self.age}\n adhaarno:{adhaarno}")
 op=opus("zaid",19,"male","armoornizmabad")
 op.adhaar(2678987654)
+
